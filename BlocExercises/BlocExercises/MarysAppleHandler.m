@@ -13,7 +13,7 @@
 - (NSString *) itemMaryCanPurchaseForDollars:(NSInteger)dollars {
     NSString *itemToReturn;
     
-    NSLog(@"For $%d, Mary can: %@", dollars, itemToReturn);
+    NSLog(@"For $%ld, Mary can: %@", (long)dollars, itemToReturn);
     return itemToReturn;
 }
 
