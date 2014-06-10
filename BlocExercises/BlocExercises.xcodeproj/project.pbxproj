@@ -11,7 +11,12 @@
 		931AB0B31945063500B4FB76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931AB0B21945063500B4FB76 /* Foundation.framework */; };
 		931AB0B51945063500B4FB76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931AB0B41945063500B4FB76 /* UIKit.framework */; };
 		931AB0BB1945063500B4FB76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 931AB0B91945063500B4FB76 /* InfoPlist.strings */; };
-		931AB0BD1945063500B4FB76 /* BlocExercises.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0BC1945063500B4FB76 /* BlocExercises.m */; };
+		931AB0C5194508D300B4FB76 /* MarysAppleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0C4194508D300B4FB76 /* MarysAppleHandler.m */; };
+		931AB0C71945097100B4FB76 /* MarysAppleHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0C61945097100B4FB76 /* MarysAppleHandlerTests.m */; };
+		931AB0CB19464B7700B4FB76 /* SimpleCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0CA19464B7700B4FB76 /* SimpleCalculator.m */; };
+		931AB0CD19464C3500B4FB76 /* SimpleCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0CC19464C3500B4FB76 /* SimpleCalculatorTests.m */; };
+		931AB0D1194660E000B4FB76 /* StringCheese.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0D0194660E000B4FB76 /* StringCheese.m */; };
+		931AB0D31946639F00B4FB76 /* StringCheeseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0D21946639F00B4FB76 /* StringCheeseTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +26,16 @@
 		931AB0B41945063500B4FB76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		931AB0B81945063500B4FB76 /* BlocExercises-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlocExercises-Info.plist"; sourceTree = "<group>"; };
 		931AB0BA1945063500B4FB76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		931AB0BC1945063500B4FB76 /* BlocExercises.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocExercises.m; sourceTree = "<group>"; };
 		931AB0BE1945063500B4FB76 /* BlocExercises-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlocExercises-Prefix.pch"; sourceTree = "<group>"; };
+		931AB0C3194508D300B4FB76 /* MarysAppleHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarysAppleHandler.h; sourceTree = "<group>"; };
+		931AB0C4194508D300B4FB76 /* MarysAppleHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarysAppleHandler.m; sourceTree = "<group>"; };
+		931AB0C61945097100B4FB76 /* MarysAppleHandlerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarysAppleHandlerTests.m; sourceTree = "<group>"; };
+		931AB0C919464B7700B4FB76 /* SimpleCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCalculator.h; sourceTree = "<group>"; };
+		931AB0CA19464B7700B4FB76 /* SimpleCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCalculator.m; sourceTree = "<group>"; };
+		931AB0CC19464C3500B4FB76 /* SimpleCalculatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCalculatorTests.m; sourceTree = "<group>"; };
+		931AB0CF194660E000B4FB76 /* StringCheese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringCheese.h; sourceTree = "<group>"; };
+		931AB0D0194660E000B4FB76 /* StringCheese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCheese.m; sourceTree = "<group>"; };
+		931AB0D21946639F00B4FB76 /* StringCheeseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCheeseTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +82,9 @@
 		931AB0B61945063500B4FB76 /* BlocExercises */ = {
 			isa = PBXGroup;
 			children = (
-				931AB0BC1945063500B4FB76 /* BlocExercises.m */,
+				931AB0C81946478E00B4FB76 /* Number Variables */,
+				931AB0CE1946606400B4FB76 /* Strings and String Formatting */,
+				931AB0C21945080300B4FB76 /* If / Else Statements and the Ternary Operator */,
 				931AB0B71945063500B4FB76 /* Supporting Files */,
 			);
 			path = BlocExercises;
@@ -83,6 +98,36 @@
 				931AB0BE1945063500B4FB76 /* BlocExercises-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		931AB0C21945080300B4FB76 /* If / Else Statements and the Ternary Operator */ = {
+			isa = PBXGroup;
+			children = (
+				931AB0C3194508D300B4FB76 /* MarysAppleHandler.h */,
+				931AB0C4194508D300B4FB76 /* MarysAppleHandler.m */,
+				931AB0C61945097100B4FB76 /* MarysAppleHandlerTests.m */,
+			);
+			name = "If / Else Statements and the Ternary Operator";
+			sourceTree = "<group>";
+		};
+		931AB0C81946478E00B4FB76 /* Number Variables */ = {
+			isa = PBXGroup;
+			children = (
+				931AB0C919464B7700B4FB76 /* SimpleCalculator.h */,
+				931AB0CA19464B7700B4FB76 /* SimpleCalculator.m */,
+				931AB0CC19464C3500B4FB76 /* SimpleCalculatorTests.m */,
+			);
+			name = "Number Variables";
+			sourceTree = "<group>";
+		};
+		931AB0CE1946606400B4FB76 /* Strings and String Formatting */ = {
+			isa = PBXGroup;
+			children = (
+				931AB0CF194660E000B4FB76 /* StringCheese.h */,
+				931AB0D0194660E000B4FB76 /* StringCheese.m */,
+				931AB0D21946639F00B4FB76 /* StringCheeseTests.m */,
+			);
+			name = "Strings and String Formatting";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +191,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931AB0BD1945063500B4FB76 /* BlocExercises.m in Sources */,
+				931AB0D1194660E000B4FB76 /* StringCheese.m in Sources */,
+				931AB0D31946639F00B4FB76 /* StringCheeseTests.m in Sources */,
+				931AB0C71945097100B4FB76 /* MarysAppleHandlerTests.m in Sources */,
+				931AB0CD19464C3500B4FB76 /* SimpleCalculatorTests.m in Sources */,
+				931AB0C5194508D300B4FB76 /* MarysAppleHandler.m in Sources */,
+				931AB0CB19464B7700B4FB76 /* SimpleCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
