@@ -333,6 +333,7 @@
 				931AB0C11945063500B4FB76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
