@@ -19,6 +19,8 @@
 		931AB0CD19464C3500B4FB76 /* SimpleCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0CC19464C3500B4FB76 /* SimpleCalculatorTests.m */; };
 		931AB0D1194660E000B4FB76 /* StringCheese.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0D0194660E000B4FB76 /* StringCheese.m */; };
 		931AB0D31946639F00B4FB76 /* StringCheeseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0D21946639F00B4FB76 /* StringCheeseTests.m */; };
+		936964A41947B1980021C271 /* StarTrekArrays.m in Sources */ = {isa = PBXBuildFile; fileRef = 936964A31947B1980021C271 /* StarTrekArrays.m */; };
+		936964A61947B26B0021C271 /* StarTrekArraysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 936964A51947B26B0021C271 /* StarTrekArraysTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,9 @@
 		931AB0CF194660E000B4FB76 /* StringCheese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringCheese.h; sourceTree = "<group>"; };
 		931AB0D0194660E000B4FB76 /* StringCheese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCheese.m; sourceTree = "<group>"; };
 		931AB0D21946639F00B4FB76 /* StringCheeseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCheeseTests.m; sourceTree = "<group>"; };
+		936964A21947B1980021C271 /* StarTrekArrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarTrekArrays.h; sourceTree = "<group>"; };
+		936964A31947B1980021C271 /* StarTrekArrays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarTrekArrays.m; sourceTree = "<group>"; };
+		936964A51947B26B0021C271 /* StarTrekArraysTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarTrekArraysTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 				931AB0CE1946606400B4FB76 /* Strings and String Formatting */,
 				931AB0C21945080300B4FB76 /* If / Else Statements and the Ternary Operator */,
 				17E46D1D1947638D0018BD4C /* Equality */,
+				9369649F1947AF7B0021C271 /* Arrays */,
 				931AB0B71945063500B4FB76 /* Supporting Files */,
 			);
 			path = BlocExercises;
@@ -144,6 +150,16 @@
 				931AB0D21946639F00B4FB76 /* StringCheeseTests.m */,
 			);
 			name = "Strings and String Formatting";
+			sourceTree = "<group>";
+		};
+		9369649F1947AF7B0021C271 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				936964A21947B1980021C271 /* StarTrekArrays.h */,
+				936964A31947B1980021C271 /* StarTrekArrays.m */,
+				936964A51947B26B0021C271 /* StarTrekArraysTests.m */,
+			);
+			name = Arrays;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,10 +226,12 @@
 				931AB0D1194660E000B4FB76 /* StringCheese.m in Sources */,
 				931AB0D31946639F00B4FB76 /* StringCheeseTests.m in Sources */,
 				931AB0C71945097100B4FB76 /* MarysAppleHandlerTests.m in Sources */,
+				936964A61947B26B0021C271 /* StarTrekArraysTests.m in Sources */,
 				17E46D20194763D70018BD4C /* EqualityDeterminer.m in Sources */,
 				17E46D22194768C90018BD4C /* EqualityDeterminerTests.m in Sources */,
 				931AB0CD19464C3500B4FB76 /* SimpleCalculatorTests.m in Sources */,
 				931AB0C5194508D300B4FB76 /* MarysAppleHandler.m in Sources */,
+				936964A41947B1980021C271 /* StarTrekArrays.m in Sources */,
 				931AB0CB19464B7700B4FB76 /* SimpleCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
