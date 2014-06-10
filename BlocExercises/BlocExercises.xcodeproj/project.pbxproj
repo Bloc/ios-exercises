@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17E46D20194763D70018BD4C /* EqualityDeterminer.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E46D1F194763D70018BD4C /* EqualityDeterminer.m */; };
+		17E46D22194768C90018BD4C /* EqualityDeterminerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E46D21194768C90018BD4C /* EqualityDeterminerTests.m */; };
 		931AB0B11945063500B4FB76 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931AB0B01945063500B4FB76 /* XCTest.framework */; };
 		931AB0B31945063500B4FB76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931AB0B21945063500B4FB76 /* Foundation.framework */; };
 		931AB0B51945063500B4FB76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931AB0B41945063500B4FB76 /* UIKit.framework */; };
@@ -20,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17E46D1E194763D70018BD4C /* EqualityDeterminer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EqualityDeterminer.h; sourceTree = "<group>"; };
+		17E46D1F194763D70018BD4C /* EqualityDeterminer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualityDeterminer.m; sourceTree = "<group>"; };
+		17E46D21194768C90018BD4C /* EqualityDeterminerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualityDeterminerTests.m; sourceTree = "<group>"; };
 		931AB0AD1945063500B4FB76 /* BlocExercises.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocExercises.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		931AB0B01945063500B4FB76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		931AB0B21945063500B4FB76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -52,6 +57,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17E46D1D1947638D0018BD4C /* Equality */ = {
+			isa = PBXGroup;
+			children = (
+				17E46D1E194763D70018BD4C /* EqualityDeterminer.h */,
+				17E46D1F194763D70018BD4C /* EqualityDeterminer.m */,
+				17E46D21194768C90018BD4C /* EqualityDeterminerTests.m */,
+			);
+			name = Equality;
+			sourceTree = "<group>";
+		};
 		931AB0A21945060D00B4FB76 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +100,7 @@
 				931AB0C81946478E00B4FB76 /* Number Variables */,
 				931AB0CE1946606400B4FB76 /* Strings and String Formatting */,
 				931AB0C21945080300B4FB76 /* If / Else Statements and the Ternary Operator */,
+				17E46D1D1947638D0018BD4C /* Equality */,
 				931AB0B71945063500B4FB76 /* Supporting Files */,
 			);
 			path = BlocExercises;
@@ -194,6 +210,8 @@
 				931AB0D1194660E000B4FB76 /* StringCheese.m in Sources */,
 				931AB0D31946639F00B4FB76 /* StringCheeseTests.m in Sources */,
 				931AB0C71945097100B4FB76 /* MarysAppleHandlerTests.m in Sources */,
+				17E46D20194763D70018BD4C /* EqualityDeterminer.m in Sources */,
+				17E46D22194768C90018BD4C /* EqualityDeterminerTests.m in Sources */,
 				931AB0CD19464C3500B4FB76 /* SimpleCalculatorTests.m in Sources */,
 				931AB0C5194508D300B4FB76 /* MarysAppleHandler.m in Sources */,
 				931AB0CB19464B7700B4FB76 /* SimpleCalculator.m in Sources */,
