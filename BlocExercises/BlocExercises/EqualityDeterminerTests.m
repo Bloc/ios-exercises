@@ -45,4 +45,18 @@
 
 }
 
+- (void) testIntegerInequalityTrue {
+    NSInteger high = 7;
+    NSInteger low = 4;
+    BOOL highIsGreater = [self.determiner integer:high isGreaterThan:low];
+    XCTAssertTrue(highIsGreater, @"7 is greater than 4.");
+}
+
+- (void) testIntegerInequalityFalse {
+    NSInteger high = 4;
+    NSInteger low = 7;
+    BOOL highIsGreater = [self.determiner integer:high isGreaterThan:low];
+    XCTAssertFalse(highIsGreater, @"7 is greater than 4.");
+}
+
 @end

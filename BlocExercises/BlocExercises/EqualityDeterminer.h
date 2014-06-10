@@ -12,5 +12,6 @@
 
 - (BOOL) string:(NSString *)string1 isTheSameAsString:(NSString *)string2;
 - (BOOL) number:(NSNumber *)number1 isTheSameAsNumber:(NSNumber *)number2;
+- (BOOL) integer:(NSInteger)integer1 isGreaterThan:(NSInteger)integer2;
 
 @end

@@ -18,4 +18,8 @@
     return (number1 == number2);
 }
 
+- (BOOL) integer:(NSInteger)integer1 isGreaterThan:(NSInteger)integer2 {
+    return NO;
+}
+
 @end
