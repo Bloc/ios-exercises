@@ -21,6 +21,10 @@
 		931AB0D31946639F00B4FB76 /* StringCheeseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0D21946639F00B4FB76 /* StringCheeseTests.m */; };
 		936964A41947B1980021C271 /* StarTrekArrays.m in Sources */ = {isa = PBXBuildFile; fileRef = 936964A31947B1980021C271 /* StarTrekArrays.m */; };
 		936964A61947B26B0021C271 /* StarTrekArraysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 936964A51947B26B0021C271 /* StarTrekArraysTests.m */; };
+		936964AA1947C8C40021C271 /* StarTrekDictionaries.m in Sources */ = {isa = PBXBuildFile; fileRef = 936964A91947C8C40021C271 /* StarTrekDictionaries.m */; };
+		936964AE1947CEA30021C271 /* AwesomeCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 936964AD1947CEA30021C271 /* AwesomeCounter.m */; };
+		936964B01947CF820021C271 /* AwesomeCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 936964AF1947CF820021C271 /* AwesomeCounterTests.m */; };
+		936964B21947E12D0021C271 /* StarTrekDictionariesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 936964B11947E12D0021C271 /* StarTrekDictionariesTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +50,12 @@
 		936964A21947B1980021C271 /* StarTrekArrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarTrekArrays.h; sourceTree = "<group>"; };
 		936964A31947B1980021C271 /* StarTrekArrays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarTrekArrays.m; sourceTree = "<group>"; };
 		936964A51947B26B0021C271 /* StarTrekArraysTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarTrekArraysTests.m; sourceTree = "<group>"; };
+		936964A81947C8C40021C271 /* StarTrekDictionaries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarTrekDictionaries.h; sourceTree = "<group>"; };
+		936964A91947C8C40021C271 /* StarTrekDictionaries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarTrekDictionaries.m; sourceTree = "<group>"; };
+		936964AC1947CEA30021C271 /* AwesomeCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeCounter.h; sourceTree = "<group>"; };
+		936964AD1947CEA30021C271 /* AwesomeCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeCounter.m; sourceTree = "<group>"; };
+		936964AF1947CF820021C271 /* AwesomeCounterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeCounterTests.m; sourceTree = "<group>"; };
+		936964B11947E12D0021C271 /* StarTrekDictionariesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarTrekDictionariesTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +116,9 @@
 				931AB0CE1946606400B4FB76 /* Strings and String Formatting */,
 				931AB0C21945080300B4FB76 /* If / Else Statements and the Ternary Operator */,
 				17E46D1D1947638D0018BD4C /* Equality */,
+				936964AB1947CE610021C271 /* Loops */,
 				9369649F1947AF7B0021C271 /* Arrays */,
+				936964A71947C8A50021C271 /* Dictionaries */,
 				931AB0B71945063500B4FB76 /* Supporting Files */,
 			);
 			path = BlocExercises;
@@ -160,6 +172,26 @@
 				936964A51947B26B0021C271 /* StarTrekArraysTests.m */,
 			);
 			name = Arrays;
+			sourceTree = "<group>";
+		};
+		936964A71947C8A50021C271 /* Dictionaries */ = {
+			isa = PBXGroup;
+			children = (
+				936964A81947C8C40021C271 /* StarTrekDictionaries.h */,
+				936964A91947C8C40021C271 /* StarTrekDictionaries.m */,
+				936964B11947E12D0021C271 /* StarTrekDictionariesTests.m */,
+			);
+			name = Dictionaries;
+			sourceTree = "<group>";
+		};
+		936964AB1947CE610021C271 /* Loops */ = {
+			isa = PBXGroup;
+			children = (
+				936964AC1947CEA30021C271 /* AwesomeCounter.h */,
+				936964AD1947CEA30021C271 /* AwesomeCounter.m */,
+				936964AF1947CF820021C271 /* AwesomeCounterTests.m */,
+			);
+			name = Loops;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +263,12 @@
 				17E46D22194768C90018BD4C /* EqualityDeterminerTests.m in Sources */,
 				931AB0CD19464C3500B4FB76 /* SimpleCalculatorTests.m in Sources */,
 				931AB0C5194508D300B4FB76 /* MarysAppleHandler.m in Sources */,
+				936964B01947CF820021C271 /* AwesomeCounterTests.m in Sources */,
+				936964AE1947CEA30021C271 /* AwesomeCounter.m in Sources */,
 				936964A41947B1980021C271 /* StarTrekArrays.m in Sources */,
 				931AB0CB19464B7700B4FB76 /* SimpleCalculator.m in Sources */,
+				936964AA1947C8C40021C271 /* StarTrekDictionaries.m in Sources */,
+				936964B21947E12D0021C271 /* StarTrekDictionariesTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
