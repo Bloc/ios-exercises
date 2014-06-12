@@ -11,18 +11,22 @@
 @implementation StarTrekArrays
 
 - (NSArray *) arrayOfStarTrekCharactersFromString:(NSString *)characterString {
+    /* WORK HERE */
     return @[];
 }
 
 - (NSString *) stringOfStarTrekCharactersFromArray:(NSArray *)characterArray {
+    /* WORK HERE */
     return @"";
 }
 
 - (NSArray *) alphabeticallySortedStarTrekCharactersFromArray:(NSArray *)characterArray {
+    /* WORK HERE */
     return @[];
 }
 
 - (BOOL) characterArrayContainsWorf:(NSArray *)characterArray {
+    /* WORK HERE */
     return NO;
 }
 

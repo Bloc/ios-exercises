@@ -44,6 +44,24 @@
  */
 - (NSString *) cheeseNameWithoutCheeseSuffix:(NSString *)cheeseName;
 
+/**
+ Creates a string indicating a the number of cheeses.
+ 
+ Example usage:
+ 
+ @code
+ NSString *phrase = [cheese numberOfCheesesStringWithCheeseCount:4];
+ // phrase is "4 cheeses"
+
+ NSString *phrase2 = [cheese numberOfCheesesStringWithCheeseCount:1];
+ // phrase2 is "1 cheese"
+@endcode
+ 
+ @param cheeseCount
+ The number of cheeses.
+ 
+ @return Returns a string indicating a the number of cheeses.
+ */
 - (NSString *) numberOfCheesesStringWithCheeseCount:(NSUInteger)cheeseCount;
 
 @end
