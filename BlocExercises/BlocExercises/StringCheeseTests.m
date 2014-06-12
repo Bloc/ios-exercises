@@ -49,6 +49,12 @@
     XCTAssertEqualObjects(cheeseNameOnly, @"Colby", @"Colby should be returned.");
 }
 
+- (void)testThatRemovingCheeseSuffixWorksWithNoCheeseAtAll {
+    NSString *fullCheeseString = @"Gouda";
+    NSString *cheeseNameOnly = [self.stringCheese cheeseNameWithoutCheeseSuffix:fullCheeseString];
+    XCTAssertEqualObjects(cheeseNameOnly, @"Gouda", @"Gouda should be returned.");
+}
+
 - (void)testThatTurningNumbersIntoStringsWorks {
     NSString *numberOfCheesesString = [self.stringCheese numberOfCheesesStringWithCheeseCount:7];
     XCTAssertEqualObjects(numberOfCheesesString, @"7 cheeses", @"7 cheeses should be returned");
