@@ -39,17 +39,17 @@
 }
 
 - (void) testThatDivisionWorks {
-    NSInteger numerator = 15;
-    NSInteger denominator1 = 5;
+    NSInteger dividend = 15;
+    NSInteger divisor = 5;
     
-    BOOL isEvenlyDivisible = [self.calculator isNumber:numerator evenlyDivisibleByNumber:denominator1];
+    NSInteger remainder = [self.calculator remainderOfNumber:dividend dividedByNumber:divisor];
     
-    XCTAssertTrue(isEvenlyDivisible, @"15 / 5 = 3");
+    XCTAssertEqual(remainder, 0, @"15 is evenly divisible by 5, so the remainder should be 0.");
     
-    NSInteger denominator2 = 4;
-    BOOL isEvenlyDivisible2 = [self.calculator isNumber:numerator evenlyDivisibleByNumber:denominator2];
+    NSInteger divisor2 = 4;
+    NSInteger remainder2 = [self.calculator remainderOfNumber:dividend dividedByNumber:divisor2];
     
-    XCTAssertFalse(isEvenlyDivisible2, @"15 / 5 = 3");
+    XCTAssertEqual(remainder2, 3, @"15 is not evenly divisible by 4; the remainder should be 3.");
 }
 
 
