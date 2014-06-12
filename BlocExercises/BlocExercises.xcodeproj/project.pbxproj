@@ -29,6 +29,8 @@
 		936964BA194949C20021C271 /* NumberHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 936964B9194949C20021C271 /* NumberHandlerTests.m */; };
 		936964BE19496F0D0021C271 /* StuffRememberer.m in Sources */ = {isa = PBXBuildFile; fileRef = 936964BD19496F0D0021C271 /* StuffRememberer.m */; };
 		936964C019496F8B0021C271 /* StuffRemembererTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 936964BF19496F8B0021C271 /* StuffRemembererTests.m */; };
+		93BDE6B2194A6C8600F2DE30 /* WizardOfOz.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BDE6B1194A6C8600F2DE30 /* WizardOfOz.m */; };
+		93BDE6B4194A6D3F00F2DE30 /* WizardOfOzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BDE6B3194A6D3F00F2DE30 /* WizardOfOzTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,9 @@
 		936964BC19496F0D0021C271 /* StuffRememberer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StuffRememberer.h; sourceTree = "<group>"; };
 		936964BD19496F0D0021C271 /* StuffRememberer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StuffRememberer.m; sourceTree = "<group>"; };
 		936964BF19496F8B0021C271 /* StuffRemembererTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StuffRemembererTests.m; sourceTree = "<group>"; };
+		93BDE6B0194A6C8600F2DE30 /* WizardOfOz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizardOfOz.h; sourceTree = "<group>"; };
+		93BDE6B1194A6C8600F2DE30 /* WizardOfOz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardOfOz.m; sourceTree = "<group>"; };
+		93BDE6B3194A6D3F00F2DE30 /* WizardOfOzTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardOfOzTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +127,7 @@
 		931AB0B61945063500B4FB76 /* BlocExercises */ = {
 			isa = PBXGroup;
 			children = (
+				93BDE6AD194A6B3F00F2DE30 /* Unit Testing */,
 				931AB0C81946478E00B4FB76 /* Number Variables */,
 				931AB0CE1946606400B4FB76 /* Strings and String Formatting */,
 				931AB0C21945080300B4FB76 /* If / Else Statements and the Ternary Operator */,
@@ -226,6 +232,16 @@
 			name = Properties;
 			sourceTree = "<group>";
 		};
+		93BDE6AD194A6B3F00F2DE30 /* Unit Testing */ = {
+			isa = PBXGroup;
+			children = (
+				93BDE6B0194A6C8600F2DE30 /* WizardOfOz.h */,
+				93BDE6B1194A6C8600F2DE30 /* WizardOfOz.m */,
+				93BDE6B3194A6D3F00F2DE30 /* WizardOfOzTests.m */,
+			);
+			name = "Unit Testing";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -293,9 +309,11 @@
 				936964A61947B26B0021C271 /* StarTrekArraysTests.m in Sources */,
 				17E46D20194763D70018BD4C /* EqualityDeterminer.m in Sources */,
 				17E46D22194768C90018BD4C /* EqualityDeterminerTests.m in Sources */,
+				93BDE6B2194A6C8600F2DE30 /* WizardOfOz.m in Sources */,
 				931AB0CD19464C3500B4FB76 /* SimpleCalculatorTests.m in Sources */,
 				931AB0C5194508D300B4FB76 /* MarysAppleHandler.m in Sources */,
 				936964B01947CF820021C271 /* AwesomeCounterTests.m in Sources */,
+				93BDE6B4194A6D3F00F2DE30 /* WizardOfOzTests.m in Sources */,
 				936964BA194949C20021C271 /* NumberHandlerTests.m in Sources */,
 				936964BE19496F0D0021C271 /* StuffRememberer.m in Sources */,
 				936964AE1947CEA30021C271 /* AwesomeCounter.m in Sources */,
