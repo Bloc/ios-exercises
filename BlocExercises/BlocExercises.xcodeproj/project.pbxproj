@@ -27,6 +27,8 @@
 		936964B21947E12D0021C271 /* StarTrekDictionariesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 936964B11947E12D0021C271 /* StarTrekDictionariesTests.m */; };
 		936964B81948F8130021C271 /* NumberHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 936964B71948F8130021C271 /* NumberHandler.m */; };
 		936964BA194949C20021C271 /* NumberHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 936964B9194949C20021C271 /* NumberHandlerTests.m */; };
+		936964BE19496F0D0021C271 /* StuffRememberer.m in Sources */ = {isa = PBXBuildFile; fileRef = 936964BD19496F0D0021C271 /* StuffRememberer.m */; };
+		936964C019496F8B0021C271 /* StuffRemembererTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 936964BF19496F8B0021C271 /* StuffRemembererTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,9 @@
 		936964B61948F8130021C271 /* NumberHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberHandler.h; sourceTree = "<group>"; };
 		936964B71948F8130021C271 /* NumberHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberHandler.m; sourceTree = "<group>"; };
 		936964B9194949C20021C271 /* NumberHandlerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberHandlerTests.m; sourceTree = "<group>"; };
+		936964BC19496F0D0021C271 /* StuffRememberer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StuffRememberer.h; sourceTree = "<group>"; };
+		936964BD19496F0D0021C271 /* StuffRememberer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StuffRememberer.m; sourceTree = "<group>"; };
+		936964BF19496F8B0021C271 /* StuffRemembererTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StuffRemembererTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +130,7 @@
 				9369649F1947AF7B0021C271 /* Arrays */,
 				936964A71947C8A50021C271 /* Dictionaries */,
 				936964B31948F7B30021C271 /* Simple Data Types and Objects */,
+				936964BB19496EEC0021C271 /* Properties */,
 				931AB0B71945063500B4FB76 /* Supporting Files */,
 			);
 			path = BlocExercises;
@@ -210,6 +216,16 @@
 			name = "Simple Data Types and Objects";
 			sourceTree = "<group>";
 		};
+		936964BB19496EEC0021C271 /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				936964BC19496F0D0021C271 /* StuffRememberer.h */,
+				936964BD19496F0D0021C271 /* StuffRememberer.m */,
+				936964BF19496F8B0021C271 /* StuffRemembererTests.m */,
+			);
+			name = Properties;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -281,7 +297,9 @@
 				931AB0C5194508D300B4FB76 /* MarysAppleHandler.m in Sources */,
 				936964B01947CF820021C271 /* AwesomeCounterTests.m in Sources */,
 				936964BA194949C20021C271 /* NumberHandlerTests.m in Sources */,
+				936964BE19496F0D0021C271 /* StuffRememberer.m in Sources */,
 				936964AE1947CEA30021C271 /* AwesomeCounter.m in Sources */,
+				936964C019496F8B0021C271 /* StuffRemembererTests.m in Sources */,
 				936964A41947B1980021C271 /* StarTrekArrays.m in Sources */,
 				931AB0CB19464B7700B4FB76 /* SimpleCalculator.m in Sources */,
 				936964AA1947C8C40021C271 /* StarTrekDictionaries.m in Sources */,
