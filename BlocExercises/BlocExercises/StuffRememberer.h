@@ -10,6 +10,22 @@
 
 @interface StuffRememberer : NSObject
 
+/*
+ 
+ In this class, there are three pairs of methods.
+ 
+ In the first, an argument is provided.  In your implementation you should store this in the appropriate kind of @property.
+ 
+ In the second method, you should provide the appropriate response:
+ 
+  1. In `arrayYouShouldRemember`, return the array provided in `rememberThisArrayForLater:`.
+ 
+  2. In `arrayYouShouldCopy`, return a copy of the array provided in `copyThisArrayForLater:`.
+ 
+  3. In `floatYouShouldRemember`, return the float value provided in `rememberThisFloatForLater:`.
+ 
+ */
+
 /**
  Indicates a mutable array to remember for later.
  
@@ -24,6 +40,8 @@
  */
 - (NSMutableArray *) arrayYouShouldRemember;
 
+// --------------------------------------------------------------------
+
 /**
  Indicates a mutable array to copy for later.
  
@@ -37,6 +55,8 @@
  @return The copied mutable array, or @c nil if none was provided.
  */
 - (NSMutableArray *) arrayYouShouldCopy;
+
+// --------------------------------------------------------------------
 
 /**
  Indicates a float to remember for later.
