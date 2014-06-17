@@ -18,5 +18,6 @@
  @return @c YES if it does, or @c NO if it doesn't.
  */
 - (BOOL) switchesFromBlackAndWhiteToColor;
+- (NSString *) mainCharacter;
 
 @end
