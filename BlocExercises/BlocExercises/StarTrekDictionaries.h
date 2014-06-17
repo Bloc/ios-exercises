@@ -25,6 +25,8 @@
  }
  @endcode
  
+ Example expected output: @"root beer"
+ 
  @param characterDictionary An NSDictionary containing values for one or more of these keys: @"name", @"rank", @"information", @"favorite drink", and @"quote".
  
  @return The character's favorite drink, or @c nil if it's not provided.
