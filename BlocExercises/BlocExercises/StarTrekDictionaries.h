@@ -13,6 +13,18 @@
 /**
  Determines the favorite drink of a given Star Trek character.
  
+ Example @c characterDictionary:
+ 
+ @code
+ {
+     "name": "Nog",
+     "rank": "Lieutenant junior grade",
+     "information": "the first Ferengi to enter Starfleet",
+     "favorite drink": "root beer",
+     "quote": "Hear all, trust nothing."
+ }
+ @endcode
+ 
  @param characterDictionary An NSDictionary containing values for one or more of these keys: @"name", @"rank", @"information", @"favorite drink", and @"quote".
  
  @return The character's favorite drink, or @c nil if it's not provided.
