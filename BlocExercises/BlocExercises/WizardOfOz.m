@@ -14,4 +14,10 @@
     /* WORK HERE */
     return NO;
 }
+
+- (NSString *) mainCharacter {
+    /* WORK HERE */
+    return @"";
+}
+
 @end
