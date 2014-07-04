@@ -28,19 +28,20 @@
 - (NSString *) favoriteCheeseStringWithCheese:(NSString *)cheeseName;
 
 /**
- Removes "cheese" from the end of a string about cheese.
+ Removes "cheese" from the end of a string about cheese and only returns 
+ the name of the cheese.
  
  Example usage:
  
  @code
  NSString *shortName = [cheese cheeseNameWithoutCheeseSuffix:@"mozarella cheese"];
- // fullSentence is "My favorite cheese is cheddar."
+ // shortName is "mozarella"
  @endcode
  
  @param cheeseName
  The name of the favorite cheese
  
- @return Returns a full sentence indicating a favorite cheese.
+ @return Returns the name of the favorite cheese without the word "cheese".
  */
 - (NSString *) cheeseNameWithoutCheeseSuffix:(NSString *)cheeseName;
 
