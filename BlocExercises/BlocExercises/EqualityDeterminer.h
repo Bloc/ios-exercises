@@ -37,7 +37,7 @@
 - (BOOL) number:(NSNumber *)number1 isTheSameAsNumber:(NSNumber *)number2;
 
 /**
- Indicates whether two integers are mathematically equal.
+ Indicates whether one integer is greater than another.
  
  @param integer1
  The first integer
@@ -45,7 +45,7 @@
  @param integer2
  The second integer
  
- @return @c YES if the integers are the same, or @c NO if they aren't.
+ @return @c YES if integer1 is greather than integer2, or @c NO if otherwise.
  */
 - (BOOL) integer:(NSInteger)integer1 isGreaterThan:(NSInteger)integer2;
 
