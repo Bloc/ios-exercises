@@ -29,6 +29,10 @@
     NSInteger sourceNumber = 17;
     NSInteger resultNumber = [self.calculator increaseNumberBy1:sourceNumber];
     XCTAssertTrue(resultNumber == 18, @"17 + 1 = 18");
+
+    sourceNumber = 972;
+    resultNumber = [self.calculator increaseNumberBy1:sourceNumber];
+    XCTAssertTrue(resultNumber == 973, @"972 + 1 = 973");
 }
 
 - (void) testThatAdditionWorks {
@@ -36,6 +40,11 @@
     NSInteger secondOperand = 3;
     NSInteger resultNumber = [self.calculator addNumber:firstOperand toNumber:secondOperand];
     XCTAssertTrue(resultNumber == 20, @"17 + 3 = 20");
+
+    firstOperand = -2;
+    secondOperand = 4;
+    resultNumber = [self.calculator addNumber:firstOperand toNumber:secondOperand];
+    XCTAssertTrue(resultNumber == 2, @"-2 + 4 = 2");
 }
 
 - (void) testThatDivisionWorks {

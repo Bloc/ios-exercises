@@ -35,12 +35,20 @@
     NSString *favoriteCheese = [self.stringCheese favoriteCheeseStringWithCheese:ricottaString];
     
     XCTAssertEqualObjects(favoriteCheese, @"My favorite cheese is ricotta.", @"Incorrect favorite cheese string returned.");
+
+    NSString *goatString = @"goat";
+    favoriteCheese = [self.stringCheese favoriteCheeseStringWithCheese:goatString];
+    XCTAssertEqualObjects(favoriteCheese, @"My favorite cheese is goat.", @"Incorrect favorite cheese string returned.");
 }
 
 - (void)testThatRemovingCheeseSuffixWorks {
     NSString *fullCheeseString = @"Monterey Jack cheese";
     NSString *cheeseNameOnly = [self.stringCheese cheeseNameWithoutCheeseSuffix:fullCheeseString];
     XCTAssertEqualObjects(cheeseNameOnly, @"Monterey Jack", @"Monterey Jack should be returned.");
+
+    fullCheeseString = @"Ambert cheese";
+    cheeseNameOnly = [self.stringCheese cheeseNameWithoutCheeseSuffix:fullCheeseString];
+    XCTAssertEqualObjects(cheeseNameOnly, @"Ambert", @"Ambert should be returned.");
 }
 
 - (void)testThatRemovingCheeseSuffixWorksWithUppercaseC {
@@ -58,6 +66,8 @@
 - (void)testThatTurningNumbersIntoStringsWorks {
     NSString *numberOfCheesesString = [self.stringCheese numberOfCheesesStringWithCheeseCount:7];
     XCTAssertEqualObjects(numberOfCheesesString, @"7 cheeses", @"7 cheeses should be returned");
+    numberOfCheesesString = [self.stringCheese numberOfCheesesStringWithCheeseCount:24];
+    XCTAssertEqualObjects(numberOfCheesesString, @"24 cheeses", @"24 cheeses should be returned");
 }
 
 - (void)testThatTurningNumberOneIntoSingularCheeseStringWorks {
