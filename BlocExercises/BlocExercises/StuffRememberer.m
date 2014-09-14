@@ -14,7 +14,7 @@
     /* WORK HERE */
 }
 
-- (void) copyThisArrayForLater:(NSMutableArray *)arrayToRemember {
+- (void) copyThisArrayForLater:(NSMutableArray *)arrayToCopy {
     /* WORK HERE */
 }
 
