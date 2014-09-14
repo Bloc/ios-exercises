@@ -37,12 +37,25 @@
     XCTAssertTrue(cerealEquality, @"Cereals should be equal.");
 }
 
+- (void) testThatTwoStringsAreInequal {
+    NSString *cerealString = [[NSString alloc] initWithFormat:@"Cheerios"];
+    NSString *secondCerealString = @"Trix";
+    BOOL cerealEquality = [self.determiner string:cerealString isTheSameAsString:secondCerealString];
+    XCTAssertFalse(cerealEquality, @"Cereals should not be equal.");
+}
+
 - (void) testThatTwoNumbersAreEqual {
     NSNumber *sixNumber = [NSNumber numberWithFloat:6];
     NSNumber *identicalSixNumber = [NSNumber numberWithInt:6];
     BOOL numberEquality = [self.determiner number:sixNumber isTheSameAsNumber:identicalSixNumber];
     XCTAssertTrue(numberEquality, @"Six should be equal to six.");
+}
 
+- (void) testThatTwoNumbersAreInequal {
+    NSNumber *sixNumber = [NSNumber numberWithFloat:6];
+    NSNumber *sevenNumber = [NSNumber numberWithInt:7];
+    BOOL numberEquality = [self.determiner number:sixNumber isTheSameAsNumber:sevenNumber];
+    XCTAssertFalse(numberEquality, @"Six should not be equal to seven.");
 }
 
 - (void) testIntegerInequalityTrue {

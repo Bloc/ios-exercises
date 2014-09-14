@@ -49,12 +49,20 @@
 - (void) testThatFavoriteDrinkWorks {
     NSString *favoriteDrink = [self.starTrekDictionaries favoriteDrinkForStarTrekCharacterDictionary:self.worf];
     XCTAssertEqualObjects(favoriteDrink, @"prune juice", @"Prune Juice is Worf's favorite drink.");
+
+    favoriteDrink = [self.starTrekDictionaries favoriteDrinkForStarTrekCharacterDictionary:self.picard];
+    XCTAssertEqualObjects(favoriteDrink, @"tea, Earl Grey, hot", @"tea, Earl Grey, hot is Picard's favorite drink.");
 }
 
 - (void) testThatDrinkArrayWorks {
     NSArray *characterArray = @[self.worf, self.picard];
     NSArray *expectedArray = @[@"prune juice", @"tea, Earl Grey, hot"];
     NSArray *actualArray = [self.starTrekDictionaries arrayOfFavoriteDrinksForStarTrekCharacters:characterArray];
+    XCTAssertEqualObjects(expectedArray, actualArray, @"Incorrect favorite drinks were returned.");
+
+    characterArray = @[self.picard, self.worf];
+    expectedArray = @[@"tea, Earl Grey, hot", @"prune juice"];
+    actualArray = [self.starTrekDictionaries arrayOfFavoriteDrinksForStarTrekCharacters:characterArray];
     XCTAssertEqualObjects(expectedArray, actualArray, @"Incorrect favorite drinks were returned.");
 }
 
