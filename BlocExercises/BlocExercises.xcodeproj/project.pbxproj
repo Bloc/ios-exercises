@@ -268,7 +268,7 @@
 		931AB0A31945060D00B4FB76 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0610;
 			};
 			buildConfigurationList = 931AB0A61945060D00B4FB76 /* Build configuration list for PBXProject "BlocExercises" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -343,6 +343,7 @@
 		931AB0A71945060D00B4FB76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
