@@ -23,7 +23,7 @@
     }
 
     /*
-     (You will learn more about if/else statements in the next checkpoint.)
+     (You will learn more about if/else statements in a later checkpoint.)
      */
 
     return nil;
@@ -37,7 +37,7 @@
     }
     
     /*
-     (You will learn more about if/else statements in the next checkpoint.)
+     (You will learn more about if/else statements in a later checkpoint.)
      */
     
     return nil;
