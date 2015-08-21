@@ -55,7 +55,7 @@ let picard = [
 
 let characters = [worf, picard]
 
-func favoriteDrinksArrayForCharacters(characters:Array<Dictionary<String, String>>) -> Array<String> {
+func favoriteDrinksArrayForCharacters(characters:[[String : String]]) -> [String] {
     // return an array of favorite drinks, like ["prune juice", "tea, Earl Grey, hot"]
     // WORK HERE
     return []
@@ -64,6 +64,14 @@ func favoriteDrinksArrayForCharacters(characters:Array<Dictionary<String, String
 let favoriteDrinks = favoriteDrinksArrayForCharacters(characters)
 
 favoriteDrinks
+
+/*
+
+Optionals
+
+*/
+
+
 
 /*
 
