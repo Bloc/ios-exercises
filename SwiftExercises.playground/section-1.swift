@@ -55,7 +55,7 @@ let picard = [
 
 let characters = [worf, picard]
 
-func favoriteDrinksArrayForCharacters(characters:Array<Dictionary<String, String>>) -> Array<String> {
+func favoriteDrinksArrayForCharacters(characters:[[String : String]]) -> [String] {
     // return an array of favorite drinks, like ["prune juice", "tea, Earl Grey, hot"]
     // WORK HERE
     return []
@@ -64,6 +64,30 @@ func favoriteDrinksArrayForCharacters(characters:Array<Dictionary<String, String
 let favoriteDrinks = favoriteDrinksArrayForCharacters(characters)
 
 favoriteDrinks
+
+/*
+
+Optionals
+
+*/
+
+func emailFromUserDict(userDict : [String : String]) -> String {
+    // Return the user's email address from userDict, or return "" if they don't have one
+    
+    // WORK HERE
+    return "user@example.com"
+}
+
+
+let mostafaElSayedUser = ["name" : "Mostafa A. El-Sayed", "occupation" : "Chemical Physicist", "email" : "mael-sayed@gatech.edu", "awards" : "Langmuir Award in Chemical Physics, Arabian Nobel Prize, Ahmed Zewail prize, The Class of 1943 Distinguished Professor, 2007 US National Medal of Science", "birthday" : "8 May 1933"]
+
+let marjorieBrowneUser = ["name" : "Marjorie Lee Browne", "occupation" : "Mathematician", "birthday" : "September 9, 1914"]
+
+
+// If your emailFromUserDict function is implemented correctly, both of these should output "true":
+
+emailFromUserDict(mostafaElSayedUser) == "mael-sayed@gatech.edu"
+emailFromUserDict(marjorieBrowneUser) == ""
 
 /*
 
