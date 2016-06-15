@@ -16,6 +16,11 @@
 }
 
 - (NSString *) cheeseNameWithoutCheeseSuffix:(NSString *)cheeseName {
+    /*
+     You might want an if/else statement like this:
+     
+     (You will learn more about if/else statements in a later checkpoint.)
+     */
     if ([[cheeseName lowercaseString] hasSuffix:@" cheese"]) {
         /* WORK HERE, ASSUMING `cheeseName` ENDS WITH " cheese" */
     } else {
@@ -23,7 +28,10 @@
     }
 
     /*
-     (You will learn more about if/else statements in a later checkpoint.)
+     There is also a solution that doesn't require the if/else statement.
+     
+     Try to find both solutions. Discuss the different approaches with
+     your mentor.
      */
 
     return nil;
